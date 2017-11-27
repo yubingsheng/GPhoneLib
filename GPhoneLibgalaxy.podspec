@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files  =  "GPhoneLib/Other/**/*.{h,m}" #需要托管的源代码路径
   s.requires_arc = true
   s.frameworks   = "AudioToolbox","AVFoundation"
+
 end
