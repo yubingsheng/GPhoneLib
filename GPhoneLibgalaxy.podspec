@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "xiaoyu" => "332004729@qq.com" }  #作者
   s.platform     = :ios, "9.0"                  #支持的平台和版本号
   s.source       = { :git => "https://github.com/yubingsheng/GPhoneLib.git", :tag => "#{s.version}" }         
-  s.source_files  =  "GPhoneLib/Other/**/*.{h,m}" #需要托管的源代码路径
+  s.source_files  =  "GPhoneLib/libgalaxy/**/*.{a}" #需要托管的源代码路径
   s.requires_arc = true
   s.frameworks   = "AudioToolbox","AVFoundation"
 
